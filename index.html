@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CyM Muebles | Muebles en Luján</title>
+<meta name="description" content="CyM Muebles, mueblería en Luján, Buenos Aires. Dormitorios, placares, cómodas, mesas, sillas, racks, muebles de cocina y más. Consultá por WhatsApp." />
+<meta name="keywords" content="CyM Muebles, muebles en Luján, mueblería en Luján, muebles Buenos Aires, dormitorios, placares, comodas, mesas, sillas" />
+<meta name="robots" content="index, follow" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="CyM Muebles | Muebles en Luján" />
+<meta property="og:description" content="Catálogo online de CyM Muebles. Calidad, diseño y variedad en Luján, Buenos Aires." />
+<meta property="og:type" content="website" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- =========================================================
+     ENCABEZADO
+     ========================================================= -->
+<header class="site-header">
+  <div class="container">
+    <a href="#inicio" class="brand">
+      CyM Muebles
+    </a>
+
+    <nav class="nav-desktop" aria-label="Navegación principal">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#" class="btn btn-whatsapp header-whatsapp-btn" id="header-whatsapp-link" target="_blank" rel="noopener">
+        <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.4.7 4.6 1.9 6.5L4 29l7.7-2C13.5 27.6 14.7 28 16 28c6.6 0 12-5.4 12-12S22.6 3 16 3zm0 22c-1.2 0-2.4-.3-3.4-.9l-.2-.1-4.6 1.2 1.2-4.5-.2-.2C7.6 19 7 17 7 15c0-5 4-9 9-9s9 4 9 9-4 9-9 9zm5.1-6.7c-.3-.1-1.6-.8-1.9-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.4.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.2-.5.1-.2 0-.4 0-.5-.1-.1-.6-1.4-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.3 0 1.4 1 2.7 1.1 2.9.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.6-.3z"/></svg>
+        WhatsApp
+      </a>
+      <button class="hamburger" id="hamburger-btn" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <nav class="nav-mobile" id="nav-mobile" aria-label="Navegación móvil">
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#catalogo">Catálogo</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li>
+        <a href="#" class="btn btn-whatsapp btn-block" id="mobile-whatsapp-link" target="_blank" rel="noopener">
+          Consultar por WhatsApp
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<!-- =========================================================
+     HERO
+     ========================================================= -->
+<section class="hero" id="inicio">
+  <img src="images/hero-muebles.svg" alt="Muebles de madera de CyM Muebles" class="hero-bg" />
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Mueblería en Luján, Buenos Aires</p>
+    <h1>Muebles que <em>transforman</em> tu hogar</h1>
+    <p class="hero-sub">Calidad, diseño y variedad en Luján, Buenos Aires.</p>
+    <div class="hero-actions">
+      <a href="#catalogo" class="btn btn-primary">Ver catálogo</a>
+      <a href="#" class="btn btn-outline js-whatsapp-link" target="_blank" rel="noopener">Consultar por WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     CATEGORÍAS
+     ========================================================= -->
+<section class="categories" id="categorias">
+  <div class="container">
+    <div class="section-head">
+      <h2>Explorá por categoría</h2>
+      <p>Encontrá el mueble justo para cada rincón de tu casa.</p>
+    </div>
+    <div class="category-scroller" id="category-scroller">
+      <!-- Los botones de categoría se generan dinámicamente desde script.js -->
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     CATÁLOGO
+     ========================================================= -->
+<section class="catalog" id="catalogo">
+  <div class="container">
+    <div class="section-head">
+      <h2>Nuestro catálogo</h2>
+      <p>Productos de ejemplo. Reemplazá fotos, precios y descripciones por los tuyos en <code>script.js</code>.</p>
+    </div>
+    <div class="product-grid" id="product-grid">
+      <!-- Las tarjetas de producto se generan dinámicamente desde script.js -->
+    </div>
+    <p class="empty-state" id="empty-state">No hay productos en esta categoría por el momento.</p>
+  </div>
+</section>
+
+<!-- =========================================================
+     SOBRE CYM MUEBLES
+     ========================================================= -->
+<section class="about" id="nosotros">
+  <div class="container">
+    <div class="section-head">
+      <h2>Sobre CyM Muebles</h2>
+    </div>
+    <p class="about-text">
+      CyM Muebles es una mueblería ubicada en Luján, Buenos Aires, dedicada a ofrecer
+      diferentes tipos de muebles para el hogar. Trabajamos para acompañarte en cada
+      etapa: desde que elegís el mueble hasta que lo tenés en tu casa, con atención
+      directa y personalizada por WhatsApp.
+    </p>
+
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <h4>Atención personalizada</h4>
+        <p>Te asesoramos según lo que necesitás para tu espacio.</p>
+      </div>
+      <div class="benefit-card">
+        <h4>Variedad de muebles</h4>
+        <p>Dormitorios, living, cocina, oficina y mucho más en un solo lugar.</p>
+      </div>
+      <div class="benefit-card">
+        <h4>Calidad</h4>
+        <p>Muebles pensados para durar y acompañar tu día a día.</p>
+      </div>
+      <div class="benefit-card">
+        <h4>Precios competitivos</h4>
+        <p>Buscamos que cada mueble sea una buena inversión para tu hogar.</p>
+      </div>
+      <div class="benefit-card">
+        <h4>Atención directa por WhatsApp</h4>
+        <p>Consultas, precios y coordinación, todo en un mismo chat.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     CONTACTO
+     ========================================================= -->
+<section class="contact" id="contacto">
+  <div class="container">
+    <div class="section-head">
+      <h2>Contacto</h2>
+      <p>Estamos para ayudarte a encontrar el mueble ideal.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="contact-row">
+          <div class="contact-icon">📍</div>
+          <div>
+            <h4>Ubicación</h4>
+            <p id="contact-location">Luján, Buenos Aires</p>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div class="contact-icon">📱</div>
+          <div>
+            <h4>WhatsApp</h4>
+            <a href="#" class="js-whatsapp-link" target="_blank" rel="noopener">Escribinos por WhatsApp</a>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div class="contact-icon">🕐</div>
+          <div>
+            <h4>Horarios</h4>
+            <p id="contact-hours">Lunes a sábados de 9 a 19 hs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <h3>¿Tenés una consulta?</h3>
+        <p>Escribinos y te respondemos a la brevedad.</p>
+        <a href="#" class="btn btn-whatsapp btn-block js-whatsapp-link" target="_blank" rel="noopener">
+          Hablar con CyM Muebles por WhatsApp
+        </a>
+        <div class="social-row" id="social-row">
+          <!-- Enlaces sociales generados desde script.js -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     FOOTER
+     ========================================================= -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-brand">CyM Muebles</p>
+        <p id="footer-location">Luján, Buenos Aires</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="#" class="js-whatsapp-link" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a href="#" id="footer-instagram" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="#" id="footer-facebook" target="_blank" rel="noopener">Facebook</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      © <span id="footer-year"></span> CyM Muebles. Todos los derechos reservados.
+    </div>
+  </div>
+</footer>
+
+<!-- Botón flotante de WhatsApp -->
+<a href="#" class="whatsapp-float js-whatsapp-link" id="floating-whatsapp" target="_blank" rel="noopener" aria-label="Consultar por WhatsApp">
+  <svg viewBox="0 0 32 32"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.4.7 4.6 1.9 6.5L4 29l7.7-2C13.5 27.6 14.7 28 16 28c6.6 0 12-5.4 12-12S22.6 3 16 3zm0 22c-1.2 0-2.4-.3-3.4-.9l-.2-.1-4.6 1.2 1.2-4.5-.2-.2C7.6 19 7 17 7 15c0-5 4-9 9-9s9 4 9 9-4 9-9 9zm5.1-6.7c-.3-.1-1.6-.8-1.9-.9-.3-.1-.5-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.4.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.2-.5.1-.2 0-.4 0-.5-.1-.1-.6-1.4-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-1 1-1 2.3 0 1.4 1 2.7 1.1 2.9.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.6-.3z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
