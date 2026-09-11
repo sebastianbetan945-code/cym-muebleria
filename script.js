@@ -11,7 +11,7 @@ const BUSINESS = {
   name: "CyM Muebles",
   // Número de WhatsApp con código de país y área, SIN espacios ni signos.
   // Ejemplo Argentina: 54 9 11 2345-6789  ->  "5491123456789"
-  whatsapp: "549XXXXXXXXXX",
+  whatsapp: "5492323640218",
   instagram: "https://instagram.com/cymmuebles",
   facebook: "https://facebook.com/cymmuebles",
   location: "Luján, Buenos Aires",
