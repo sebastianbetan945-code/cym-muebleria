@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+  <defs>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6E4E33"/>
+      <stop offset="100%" stop-color="#42301F"/>
+    </linearGradient>
+    <pattern id="wood4" width="40" height="40" patternTransform="rotate(8)" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="url(#g4)"/>
+      <rect width="40" height="2" fill="rgba(0,0,0,0.06)"/>
+      <rect y="10" width="40" height="1" fill="rgba(0,0,0,0.05)"/>
+      <rect y="22" width="40" height="1.5" fill="rgba(0,0,0,0.05)"/>
+      <rect y="31" width="40" height="1" fill="rgba(0,0,0,0.04)"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="450" fill="url(#wood4)"/>
+  <rect width="600" height="450" fill="rgba(0,0,0,0.12)"/>
+  <text x="300" y="215" font-family="Georgia, serif" font-size="28" fill="#F7F3EC" text-anchor="middle" font-style="italic">CyM Muebles</text>
+  <text x="300" y="255" font-family="Georgia, serif" font-size="20" fill="#F0E6D6" text-anchor="middle">Silla de Madera</text>
+  <text x="300" y="285" font-family="Arial, sans-serif" font-size="13" letter-spacing="1" fill="rgba(247,243,236,0.65)" text-anchor="middle">FOTO DE DEMOSTRACIÓN — REEMPLAZAR</text>
+</svg>
