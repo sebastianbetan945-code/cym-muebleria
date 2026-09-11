@@ -29,7 +29,7 @@ const BUSINESS = {
    - category: debe coincidir exactamente con una de CATEGORIES
    ========================================================= */
 const CATEGORIES = [
-  "Dormitorios",
+  "Electrodomesticos",
   "Placares",
   "Cómodas",
   "Mesas",
