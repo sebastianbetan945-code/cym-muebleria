@@ -14,7 +14,7 @@ const BUSINESS = {
   whatsapp: "5492323640218",
   instagram: "https://instagram.com/cymmuebles",
   facebook: "https://facebook.com/cymmuebles",
-  location: "Luján, Buenos Aires",
+  location: "La plata 3365, Luján, Buenos Aires",
   hours: "Lunes a sábados de 9 a 19 hs",
 };
 
