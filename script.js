@@ -12,7 +12,7 @@ const BUSINESS = {
   // Número de WhatsApp con código de país y área, SIN espacios ni signos.
   // Ejemplo Argentina: 54 9 11 2345-6789  ->  "5491123456789"
   whatsapp: "5492323640218",
-  instagram: "https://instagram.com/cymmuebles",
+  instagram: "https://www.instagram.com/cym_muebles_lujan?stkn=Ym94d2F2aG1hNWt1",
   facebook: "https://facebook.com/cymmuebles",
   location: "La plata 3365, Luján, Buenos Aires",
   hours: "Lunes a sábados de 9 a 19 hs",
